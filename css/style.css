@@ -570,10 +570,9 @@ footer {
     line-height: 110%; /* 55px */
     letter-spacing: -1px;
 }
-.ourcontactsdiv {
+.ourcontactsdivv {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 
 .ourfirstdiv {
@@ -596,6 +595,9 @@ footer {
     background: #FFCA42;
     margin-top: 22px;
     margin-bottom:40px ;
+}
+.ourtexts2div {
+    display: flex;
 }
 .ourtexts2div p {
     margin-bottom: 29px;
@@ -622,6 +624,9 @@ footer {
     height: 65px;
     background: #1B3764;
     margin-right: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ourtextdiv1 h2 {
     color: #1B3764;
@@ -640,4 +645,67 @@ footer {
     font-weight: 400;
     line-height: 180%; /* 34.2px */
     letter-spacing: -0.19px;
+}
+
+.ourformsdiv {
+    max-width: 620px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 145px;
+}
+
+.oursmalldiv {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+#just {
+    max-width: 299px;
+    width: 100%;
+    height: 65px;
+    border: 1px solid #FFCA42;
+    background: #FFF;
+    padding: 10px;
+    
+}
+
+#only {
+    max-width: 620px;
+    width: 100%;
+    height: 65px;
+    border: 1px solid #FFCA42;
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+#never {
+    max-width: 620px;
+    width: 100%;
+    height: 220px;
+    border: 1px solid #FFCA42;
+    background: #FFF;
+    resize: none;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#submit2 {
+    max-width:620px;
+    width: 100%;
+    height: 65px;
+    background: #FFCA42;
+    border: none;
+    color: #1B3764;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.titkmismovrchi {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-bars {
+    display: none;
 }
